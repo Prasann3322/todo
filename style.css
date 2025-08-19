@@ -72,3 +72,55 @@ h4 {
 span {
   text-align: right;
 }
+
+
+
+/* Phone optimization */
+@media screen and (max-width: 480px) {
+
+.heading{
+    text-align:right;
+    position:relative;
+    left:0vw;
+    color:gold;
+    font-size:7vw;
+    text-align:center;
+    top:0vw;
+    filter: drop-shadow(10px 10px 40px purple) drop-shadow(10px 10px 20px black);
+}
+.content{
+    width:95%;
+    padding:5vw;
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+
+}
+.container{
+     width: 90%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.15); /* Transparent white */
+    border-radius: 15px;
+    backdrop-filter: blur(10px); /* The magic! */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    padding:3vw;
+    padding-top:0;
+    font-size:1.2rem;
+    padding-bottom:0;
+
+
+  
+}
+.upper{
+    width:100%;
+    transform: translateX(-0%);
+    color:white;
+}
+.lower{
+    width:100%;
+    transform: translateX(-0%);
+    color:white;
+}
+}
