@@ -72,7 +72,9 @@ h4 {
 span {
   text-align: right;
 }
-
+.bonus{
+    color:red;
+}
 
 
 /* Phone optimization */
