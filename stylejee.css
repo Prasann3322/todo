@@ -1,0 +1,18 @@
+
+.jee:hover{
+    background: rgba(128, 0, 128, 0.098);
+    border: 2px solid purple;
+}
+.neet:hover{
+    background:purple;
+
+}
+.jee{
+    background:purple;
+    scale:1;
+}
+.neet{
+    background: rgba(128, 0, 128, 0.098);
+        border: 2px solid purple;
+        scale:0.8;
+}

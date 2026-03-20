@@ -10,6 +10,39 @@
     width:100%;
     height:100%;
 }
+
+.exam{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+button{
+    position: relative;
+    top:5vh;
+    left:5vw;
+    margin-bottom: 3vh;
+    padding:10px 20px;
+    background:purple;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:1.2rem;
+    cursor:pointer;
+}
+.jee{
+    background: rgba(128, 0, 128, 0.098);
+    border: 2px solid purple;
+    scale:0.8;
+}
+.jee:hover{
+   background:purple;
+}
+.neet:hover{
+     background: rgba(128, 0, 128, 0.098);
+    border: 2px solid purple;
+    
+
+}
 .heading{
     text-align:right;
     position:fixed;
@@ -80,6 +113,11 @@ span {
 /* Phone optimization */
 @media screen and (max-width: 480px) {
 
+.exam{
+    margin-bottom: 5vh;
+    position: relative;
+    top:-2vh;
+}
 .heading{
     text-align:right;
     position:relative;
